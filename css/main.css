@@ -1,12 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 7000px;
 }
-.navbar{
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.navbar {
     background-color: black;
     align-items: center;
     display: flex;
@@ -16,20 +23,51 @@ body{
     position: sticky;
     top: 0;
 }
-.navbar img{
+
+.navbar img {
     width: 50%;
     display: flex;
 }
-.page-links ul{
+
+.page-links ul {
     display: flex;
     gap: 20px;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color:white;
-    
+    color: white;
+
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 33.33%;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.portfolio-item img {
+    display: flex;
+    width: 100%;
+}
+
+.portfolio h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.portfolio p {
+    text-align: center;
 }
