@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 7000px;
+}
+.navbar{
+    background-color: black;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+.navbar img{
+    width: 50%;
+    display: flex;
+}
+.page-links ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    
+}
